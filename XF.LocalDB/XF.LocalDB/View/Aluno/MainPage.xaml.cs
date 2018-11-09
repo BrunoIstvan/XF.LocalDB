@@ -52,6 +52,11 @@ namespace XF.LocalDB.View.Aluno
             Navigation.PopAsync();
         }
 
+        protected override bool OnBackButtonPressed()
+        {
+            return true;
+        }
+
     }
 
 }
