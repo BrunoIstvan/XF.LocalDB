@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF.LocalDB.Android", "XF.Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF.LocalDB.iOS", "XF.LocalDB\XF.LocalDB.iOS\XF.LocalDB.iOS.csproj", "{C1265AF8-2EAF-4495-889C-B21756E030A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF.LocalDB", "XF.LocalDB\XF.LocalDB\XF.LocalDB.csproj", "{2E539EED-30B6-4F80-ACA1-06852328F2D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XF.LocalDB", "XF.LocalDB\XF.LocalDB\XF.LocalDB.csproj", "{2E539EED-30B6-4F80-ACA1-06852328F2D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
