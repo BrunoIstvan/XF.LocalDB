@@ -43,7 +43,7 @@ namespace XF.LocalDB.Model
                     return aluno.Id;
                 }
                 else return
-               database.Insert(aluno);
+                database.Insert(aluno);
             }
         }
 

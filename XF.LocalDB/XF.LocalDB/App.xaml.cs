@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XF.LocalDB.Model;
 using XF.LocalDB.View.Aluno;
+using XF.LocalDB.ViewModel;
 
 [assembly: XamlCompilation (XamlCompilationOptions.Compile)]
 namespace XF.LocalDB
@@ -13,8 +14,18 @@ namespace XF.LocalDB
 		{
 			InitializeComponent();
 
-            MainPage = new NavigationPage(new View.Aluno.MainPage());
+            if (UsuarioVM == null)
+            {
+                UsuarioVM = new UsuarioViewModel();
+            }
+
+            MainPage = new NavigationPage(new View.Login.LoginView()
+            {
+                BindingContext = App.UsuarioVM
+            });
         }
+
+        public static UsuarioViewModel UsuarioVM { get; set; }
 
         static Aluno alunoModel;
 

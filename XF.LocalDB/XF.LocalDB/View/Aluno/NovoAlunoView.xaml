@@ -15,6 +15,7 @@
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Button x:Name="btnSalvar" Text="Salvar" Clicked="OnSalvar" />
+                <Button x:Name="btnExcluir" Text="Excluir" Clicked="OnExcluir" />
                 <Button x:Name="btnCancelar" Text="Cancelar" Clicked="OnCancelar" />
             </StackLayout>
         </StackLayout>

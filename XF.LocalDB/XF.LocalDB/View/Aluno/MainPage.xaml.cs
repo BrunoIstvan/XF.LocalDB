@@ -41,6 +41,7 @@ namespace XF.LocalDB.View.Aluno
 
             Navigation.PushAsync(new NovoAlunoView()
             {
+                Aluno = selecionado,
                 BindingContext = selecionado
             });
 
