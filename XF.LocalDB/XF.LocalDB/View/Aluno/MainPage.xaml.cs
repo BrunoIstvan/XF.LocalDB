@@ -10,9 +10,9 @@ using XF.LocalDB.ViewModel;
 
 namespace XF.LocalDB.View.Aluno
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MainPage : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class MainPage : ContentPage
+    {
 
         AlunoViewModel vmAluno;
         public MainPage()
@@ -47,5 +47,11 @@ namespace XF.LocalDB.View.Aluno
 
         }
 
+        private void OnSair(object sender, EventArgs args)
+        {
+            Navigation.PopAsync();
+        }
+
     }
+
 }

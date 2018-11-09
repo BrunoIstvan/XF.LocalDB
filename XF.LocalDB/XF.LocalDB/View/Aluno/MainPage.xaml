@@ -13,12 +13,12 @@
     <ContentPage.Content>
         
         <StackLayout Padding="20">
-            
-            <StackLayout Orientation="Horizontal" 
+
+            <!--<StackLayout Orientation="Horizontal" 
                          VerticalOptions="Center" 
                          HorizontalOptions="Center">
                 <Button x:Name="btnNovo" Text="Novo" Clicked="OnNovo" />
-            </StackLayout>
+            </StackLayout>-->
             
             <Label Text="Alunos" Font="18" />
             
